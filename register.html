@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Your Company Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+        }
+
+        #logo {
+            width: 150px;
+        }
+
+        .container {
+            margin: 30px auto;
+            max-width: 500px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://afrikatikkun.org/wp-content/uploads/2021/07/AfrikaTikkun_logo-1.png" alt="Company Logo" id="logo">
+        <h1>Registration - Your Company Name</h1>
+    </header>
+
+    <div class="container">
+        <form action="http://127.0.0.1:5500/homepage.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="surname">Surname:</label>
+            <input type="text" name="surname" id="surname" required>
+
+            <label for="program">Program:</label>
+            <input type="text" name="program" id="program" required>
+
+           
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" name="confirmPassword" id="confirmPassword" required>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>

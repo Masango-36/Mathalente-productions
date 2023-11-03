@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Company Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+        }
+
+        #logo {
+            width: 150px;
+        }
+
+        .container {
+            margin: 30px auto;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        p {
+            text-align: left;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src=" https://afrikatikkun.org/wp-content/uploads/2021/07/AfrikaTikkun_logo-1.png" alt="Company Logo" id="logo">
+        <h1>Contact Us - Afrika Tikkun Services</h1>
+    </header>
+
+    <div class="container">
+        <h2>Contact Information</h2>
+        <p><strong>Company Name:</strong> Afrika Tikkun Sevises</p>
+        <p><strong>Address:</strong> 1 bond Street, Rundberg, south Africa</p>
+        <p><strong>Email:</strong>info@afrikatikkun.org </p>
+        <p><strong>Phone:</strong>  +27 11 325 5914</p>
+
+        <h2>Contact Form</h2>
+        <form action="contact-process.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" name="name" id="name" required><br></br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" name="email" id="email" required><br></br>
+
+            <label for="message">Your Message:</label>
+            <textarea name="message" id="message" rows="1" required></textarea><br></br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
